@@ -14,6 +14,7 @@ uno.vid.3=0x2341
 uno.pid.3=0x0243
 
 uno.build.core=arduino:arduino
+uno.build.f_cpu=16000000L
 
 ## Arduino/Genuino UNO w/ ATmega328P
 ## -------------------------
@@ -31,7 +32,7 @@ uno.menu.cpu.atmega328.bootloader.tool=avrdude
 uno.menu.cpu.atmega328.bootloader.high_fuses=0xDE
 uno.menu.cpu.atmega328.bootloader.low_fuses=0x0F
 uno.menu.cpu.atmega328.bootloader.extended_fuses=0x05
-uno.menu.cpu.atmega328.bootloader.file=optiboot/optiboot_atmega328.hex
+uno.menu.cpu.atmega328.bootloader.file=optiboot_atmega328.hex
 
 uno.menu.cpu.atmega328.build.mcu=atmega328p
 uno.menu.cpu.atmega328.build.board=AVR_UNO
@@ -54,7 +55,7 @@ uno.menu.cpu.atmega328PB.bootloader.tool=avrdude
 uno.menu.cpu.atmega328PB.bootloader.high_fuses=0xDE
 uno.menu.cpu.atmega328PB.bootloader.low_fuses=0x0F
 uno.menu.cpu.atmega328PB.bootloader.extended_fuses=0x05
-uno.menu.cpu.atmega328PB.bootloader.file=optiboot/optiboot_atmega328pb.hex
+uno.menu.cpu.atmega328PB.bootloader.file=optiboot_atmega328pb.hex
 
 uno.menu.cpu.atmega328PB.build.mcu=atmega328pb
 uno.menu.cpu.atmega328PB.build.board=AVR_UNO
