@@ -13,7 +13,7 @@ and install the *ATmega328PB Boards* via the Boards Manager (*Tools->Boards->Boa
 
 ### Manual Installation
 The current Arduino avr-gcc toolchain (4.8.1) does not support the ATmega328PB.
-To get support you can replace it with the below Atmel avr-gcc toolchain (4.9.2) and update the files in ```/arduino/hardware``` with the files from [this repository](https://github.com/watterott/ATmega328PB-Testing/archive/master.zip).
+To get support you can replace it with the below Atmel avr-gcc toolchain (4.9.2) and update the files in ```/arduino/hardware``` with the files from [this repository](https://github.com/agdl/ATmega328PB-Testing/raw/master/ATmega328PB-Testing.zip).
 
 **Atmel Toolchain**
 * Windows: http://www.atmel.com/tools/ATMELAVRTOOLCHAINFORWINDOWS.aspx
