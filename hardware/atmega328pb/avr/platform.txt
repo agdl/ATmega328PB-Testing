@@ -1,4 +1,4 @@
-name=ATmega328PB
+name=ATmega328PB - Testing
 version=1.0.0
 
 # AVR Uploader/Programmers tools
